@@ -7,9 +7,9 @@ ano = input("Digite o ano atual: ")
 
 print(dia+"/"+mes+"/"+ano)
 
-num1 = int(input("Digite o primeiro número:"))
-num2 = int(input("Digite o segundo número:"))
+num1 = float(input("Digite o primeiro número:"))
+num2 = float(input("Digite o segundo número:"))
 
 soma = num1 + num2
 
-print("A soma desses números é igual a: "+soma)
+print(f"A soma desses números é igual a: {soma}")
